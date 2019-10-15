@@ -1,0 +1,237 @@
+* {
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.primary {
+    color: white;
+    text-align: center;
+
+}
+
+.primary-black {
+    color: black;
+    text-align: center;
+    
+}
+
+/* NAV */
+
+ .nav-dark {
+     background: black;
+ }   
+
+ .title-nav {
+     text-align: right;
+     color: white;
+     font-size: 300%;
+
+ }
+
+ .list {
+     display: inline;
+     color: white;
+ }
+
+ .separate {
+     background: black;
+     border: black;
+
+     border-radius: 10px 10px 10px 10px;
+ 
+    border: 0px solid blue;
+    padding: 0.5%;
+ }
+
+
+ .nav-light {
+    background: white;
+}   
+
+.title-nav-light {
+    text-align: right;
+    color: black;
+    font-size: 300%;
+
+}
+
+.list-light {
+    display: inline;
+    color: black;
+}
+
+.separate-light {
+    background: white;
+    border: white;
+}
+
+
+/* Buttons */
+.b-blue {
+    color: white;
+    background: blue;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid blue;
+
+    padding: 0.5%;
+    width: 10%;
+
+}
+
+.b-red {
+    color: white;
+    background: red;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid red;
+
+    padding: 0.5%;
+    width: 10%;
+
+}
+
+.b-red-f {
+    color: white;
+    background: red;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid red;
+
+    padding: 2%;
+    width: 10%;
+
+}
+
+.b-green {
+    color: white;
+    background: green;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid green;
+
+    padding: 0.5%;
+    width: 10%;
+
+}
+
+/* CARDS */
+
+c.contenedor {
+	height: 250px;
+	margin: auto;
+	width: 250px;
+	-webkit-perspective: 700;
+}
+
+.carta {
+	height: 100%;
+	width: 100%;
+	transition: all 1s;
+	transform-style: preserve-3d;
+	box-shadow: 0px 0px 5px black;
+	position: absolute;
+}
+
+.carta:hover{
+  transform: rotateY(180deg);
+}
+
+.lado{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+   background: #F0F0F0;
+  backface-visibility: hidden;
+}
+
+.frente{ background-color: crimson; }
+.frente h3 {
+   position: absolute;
+   font-size: 38px;
+   margin-top: 200px;
+   color: #fff;
+}
+
+img { height: 100%; width: 100%; }
+ul {
+	padding: 0;
+  margin:0;
+	list-style: none;
+	height: 204px;
+  
+}
+
+li {
+	text-decoration: none;
+	padding: 10px;
+  z-index:80;
+}
+
+
+.atras{
+	height: 100%;
+	width: 100%;
+  transform: rotateY(180deg);
+}
+
+.atras h3 {
+	display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* INPUTS */
+
+.input-g {
+
+  
+
+  
+
+   padding: 0.5%;
+}
+
+.input-f {
+
+  
+
+  
+
+    padding: 0.5%;
+    width: 75%;
+ }
+ 
+
+ /* FORM */
+ 
+ .form-g{
+    text-align: center; border: 1px solid black;
+    width: 30%;
+ }
+
+ /* selects */
+
+ .select {
+    color: black;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid green;
+
+    padding: 0.5%;
+    width: 10%;
+ }
+
+ /* tables */
+ .container{
+    text-align: center; border: 1px solid black;
+    width: 30%;
+ }
